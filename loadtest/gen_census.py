@@ -34,7 +34,8 @@ def create_voters(filename):
 
 def add_census(voters_pk, voting_pk):
     """
-    Add to census all voters_pk in the voting_pk.
+
+    Add to census all voters_pk in the voting_pk. cambio2
     """
     data = {'username': USER, 'password': PASS}
     response = requests.post(HOST + '/authentication/login/', data=data)
